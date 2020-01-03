@@ -1,6 +1,6 @@
 /* Tablet 768px Styles */
 
-@media all and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     body {    
         min-width: 321px;
@@ -151,9 +151,6 @@
     /* Floats/Columns */
     
     .col {
-        border-top: 1px solid #4A4A4A;
-        padding: 15px;
-        font-weight: bold;
         display: none;
     }
     .float-left {

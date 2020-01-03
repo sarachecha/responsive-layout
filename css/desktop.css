@@ -1,12 +1,6 @@
 /* Desktop minimum 769px styles */
 
-@media (min-width:769px) {
-
-body {    
-    min-width: 769px;
-  }
-
-/* Font face */
+@media (min-width: 1024px) {
 
 /* Text styles */
 
@@ -48,7 +42,7 @@ p {
 }
 
 .flex-item {
-    flex: 1 1 250px;
+    flex: 1 1 310px;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 2%;
     color: #4A4A4A;
@@ -153,9 +147,6 @@ header .name {
 /* Floats/Columns */
 
 .col {
-    border-top: 1px solid #4A4A4A;
-    padding: 15px;
-    font-weight: bold;
     display: none;
 }
 .float-left {

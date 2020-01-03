@@ -1,6 +1,6 @@
 /* Mobile 320px Styles*/
 
-@media only screen and (max-width:320px) {
+@media only screen and (min-width: 320px) {
 
     body {    
         margin: 0;
